@@ -1,0 +1,161 @@
+<!DOCTYPE html> Para informar que está sendo utilizado o HTML5.
+
+<html lang="pt-br"> liguagem português brasileiro.
+<head>
+
+<meta charset="UTF-8"> Para aceitar acentuações.
+
+<title>Minha Página</title> Para colocar o nome da aba.
+
+</head>
+
+<body> Corpo da página que irá aparecer.
+
+
+<nav> tag de navegação que permitirá com que ao clicar no item
+        da lista, ela vá até a seção indicada.
+    
+    
+    <p>Minha página</p> parágrafo título da página.
+    <ul> O elemento HTML <ul> (ou elemento HTML de Lista desordenada ) representa uma lista de itens sem ordem rígida, isto é, uma coleção de itens que não trazem uma ordenação numérica e as suas posições, nessa lista, são irrelevantes
+        
+        <li>
+            <a href = "#serviços">SERVIÇOS</a> li(lista ou  menu) criado. O # fará com que surja um link dentro da mesma página, avançando para o tópico serviços
+       
+        </li> final do item 
+        
+        <li>
+            <a href="#clientes">CLIENTES</a>menu criado ==> idem
+        </li>
+        
+        <li>
+            <a href="#parceiros">PARCEIROS</a> ==>idem
+        </li>
+        
+        <li>
+            <a href="#time">TIME</a> ==> idem
+        </li>
+        
+        <li>
+            <a href="#contato">CONTATO</a> ==> idem
+        </li>
+
+    </ul> ==>final da coleção de itens!!!
+
+</nav> fim da navegação.
+
+
+<p>Minha primeira página</p>
+
+<header>
+    <h1>Minha página</h1> CABEÇAÇHO TÍTULO  DA PÁGINA( VAI DO h1 ao
+    h3 sendo o h3 o menor tamanho)
+    <p>
+    
+        Oferecemos o desenvolvimento dos melhores
+        sites e apps para a sua empresa.(Apresentação dos serviços
+        do site)
+    
+    </p>
+</header>
+
+<section id = "serviços"> (a seção ao qual irá o clique dado no
+    menu que irá apresentar o item da lista.)
+
+    <h2>SERVIÇOS</h2>
+    <p>
+   Oferecemos os melhores serviços 
+   em sites e aplicativos.
+    </p>
+    <div>
+    <img src="img/site.jpeg" width="200px" >
+    </div>
+    <div>
+        <img src="img/app.jpeg" width="200px">
+    </div>
+</section>
+
+<section id = "clientes">
+    <h2>CLIENTES</h2>
+<p>
+    Nossos clientes ficaram muito satisfeitos
+    com nossos serviços.
+</p>
+<div>
+<img src="img/cliente1.jpeg" width="200px">
+</div>
+<div>
+<img src="img/cliente2.jpeg" width="200px">
+</div>
+
+</section>
+
+
+<section id="parceiros">
+    <h2>PARCEIROS</h2>
+    <p>
+     Nossos parceiros nos ajudam a encontrar
+     as melhores soluções para nossos clientes.
+    </p>
+    <div>
+  <a href="https://web.digitalinnovation.one/home" target="_blank">
+ 
+(a href referencia a página que irá direcionar o ícone e usando
+ target ="_blank", irá abrir uma nova aba sem ter que sair da página de origem.)
+
+
+    <img src="img/parceiros2.png" width="130px">
+  </a>
+</div>
+
+<div>
+    <img src="img/parceiros.jpeg" width="130px">
+</div>
+</section>
+
+
+
+<section id="time">
+    <h2>TIME</h2>
+    <p>
+        Nosso time trabalha com muita
+        qualidade e empenho para entregar
+        o melhor produto para os nossos clientes
+    </p>
+    <div>
+        <img src="img/team(1).png"  width="130px">
+    </div>
+</section>
+
+
+
+<section id="contato">
+    <h2>CONTATO</h2>
+    <p>
+     Entre em contato com nossa equipe.   
+    </p>
+    <div>
+        <img src="img/contato.jpeg" width="130px">
+        <p>
+<a href="mailto:contato@empresa.com">contato@empresa.com</a>
+        </p>
+        <p>
+<a href="tel:9999999999">(99)9999-9999</a>
+</p>
+    </div>
+
+</section>
+
+(mailto e tel+ o numero do telefone devem ser referenciados em 
+a href, para que o cliente possa mandar um email ou ligar via skype
+ou de outras formas sem ter que sair da página)
+
+<footer>
+    <p>
+        Desenvolvida por Ana Cláudia Vilaronga Moretti
+    </p>
+    
+</footer>
+
+</body>
+</html>
